@@ -2,7 +2,8 @@
 
 ## Топология
 
-![](src/pics/topology.png?raw=true "")
+<img src="https://user-images.githubusercontent.com/80028987/206670524-1bd860b8-eb61-4d15-81cb-efeb760c9d8e.png" width="400">
+
 
 ## Инструкции
 
@@ -119,24 +120,24 @@ exit
 ## STP
 ### R1 (root)
 
-![](src/pics/R1.png?raw=true "")
+<img src="https://user-images.githubusercontent.com/80028987/206670840-f150a9e0-a6a0-464d-a9c1-5f48b186dd3f.png" width="500">
 
 ### R2
 
-![](src/pics/R2.png?raw=true "")
+<img src="https://user-images.githubusercontent.com/80028987/206671019-c31b9e8f-3619-4fb5-aee6-737d90dde494.png" width="500">
 
 ### R3
 
-![](src/pics/R3.png?raw=true "")
+<img src="https://user-images.githubusercontent.com/80028987/206671112-51e7cab7-f9c0-40bf-b239-1ea6dfe98611.png" width="500">
 
 
 ## Работоспособность
 
 ### От VPC4 к VPC5
-![](src/pics/ping1.png?raw=true "")
+<img src="https://user-images.githubusercontent.com/80028987/206671238-5c3d3a7d-ca2a-454d-b578-e9c6f684c98a.png" width="700">
 
 ### От VPC5 к VPC4
-![](src/pics/ping2.png?raw=true "")
+<img src="https://user-images.githubusercontent.com/80028987/206671330-6127e1a2-a448-4acd-a9e7-d79ddad03c32.png" width="700">
 
 ## Отказоустойчивость
 
@@ -150,8 +151,8 @@ shutdown
 exit
 exit
 ```
-![](src/pics/shutdown.png?raw=true "")
+<img src="https://user-images.githubusercontent.com/80028987/206671419-ed2e12d0-6db4-4e7b-a6b9-594fe9efa98f.png" width="700">
 
 Системе нужно пару секунд, чтобы восстановиться, затем она снова работает: 
 
-![](src/pics/after_shutdown.png?raw=true "")
+<img src="https://user-images.githubusercontent.com/80028987/206671483-0ebbb1a7-72ec-4b60-b5a3-7399128055a7.png" width="700">
