@@ -22,12 +22,8 @@ def check_mtu(mtu, host):
                                 shell=True)
     except Exception:
         raise Exception("Host you provided is invalid or does not exist")
-
-    for line in iter(out.stdout.readline, b''):
-        l = line.decode(encoding='utf-8').lower()
-        if "message too long" in l or "100.0% packet loss" in l or 'packet size too large' in l:
-            return False
-    return True
+    
+    return out.wait() == 0
 
 def find_mtu(host):
     # check for existance and availability
@@ -49,5 +45,5 @@ def find_mtu(host):
 if __name__ == '__main__':
     args = sys.argv[1:]
     if len(args) != 1:
-        raise Exception("Wrong number of arguments. Provide one hostname")
+        raise Exception("Wrong number of arguments. Provide exactly one hostname")
     print(f"The maximum MTU size for this IP including header size: {find_mtu(args[0])}")
