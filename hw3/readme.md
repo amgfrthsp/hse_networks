@@ -164,6 +164,11 @@ ip dhcp
 ![](src/pic/ping1.png)
 ![](src/pic/ping2.png)
 
+К главному роутеру:
+
+![](src/pic/ping.png)
+
 Работа роутера, DHCP и NAT:
+много мусора, но главное есть.
 
 ![](src/pic/trans.png)
