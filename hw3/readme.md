@@ -1,6 +1,6 @@
 # Домашнее задание 3
 ## Топология 
-![](src/pics/topology.png)
+![](src/pic/topology.png)
 
 ## Инструкции
 ### R1
@@ -147,23 +147,23 @@ exit
 ```
 ip dhcp
 ```
-![](src/pics/v1.png)
-![](src/pics/ip1.png)
+![](src/pic/v1.png)
+![](src/pic/ip1.png)
 
 ### VPC7
 ```
 ip dhcp
 ```
-![](src/pics/v2.png)
-![](src/pics/ip2.png)
+![](src/pic/v2.png)
+![](src/pic/ip2.png)
 
 ## Работоспособность
 
 С одного клиента к другому и обратно:
 
-![](src/pics/ping1.png)
-![](src/pics/ping2.png)
+![](src/pic/ping1.png)
+![](src/pic/ping2.png)
 
 Работа роутера, DHCP и NAT:
 
-![](src/pics/trans.png)
+![](src/pic/trans.png)
