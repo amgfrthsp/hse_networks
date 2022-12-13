@@ -32,7 +32,7 @@ def find_mtu(host):
     except Exception:
         raise Exception("Host you provided is invalid or does not exist")
     
-    l = 1200
+    l = 0
     r = 10000
     while (r - l - 1 > 0):
         mtu_to_check = int((l + r) / 2)
